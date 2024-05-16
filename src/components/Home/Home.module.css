@@ -1,0 +1,29 @@
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 157, 137);
+}
+.moviesList{
+    display: flex;
+    list-style: none;
+} 
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 coloane egale */
+    gap: 30px; /* Spațiul între elemente */
+    height: 500px;
+    width: 350px;
+}
+.movieImage{
+    height: 500px;
+    width: 380px;
+
+}
+.movieRating{
+    color:chocolate;
+    text-decoration: none;
+}
+.movieLink{
+    text-decoration: none;
+}

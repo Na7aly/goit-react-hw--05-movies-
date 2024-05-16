@@ -1,0 +1,9 @@
+.movie-details {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.max-width {
+    max-width: 1000px;
+}

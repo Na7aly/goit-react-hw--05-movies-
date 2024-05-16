@@ -1,0 +1,61 @@
+.form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn{
+    background-color:rgb(233, 232, 206);
+    text-decoration: none;
+    color:rgb(131, 141, 109);
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    width: 70px;
+height: 30px;
+}
+.btn:hover{
+    color:rgb(186, 199, 211);
+}
+.search{
+width: 400px;
+height: 25px;
+color:rgb(184, 194, 166);
+border-color:rgb(184, 194, 166);
+border-radius: 10px;
+padding-left: 10px;
+
+}
+
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 157, 137);
+}
+.moviesList{
+    display: flex;
+    list-style: none;
+} 
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 coloane egale */
+    gap: 30px; /* Spațiul între elemente */
+    height: 500px;
+    width: 350px;
+    text-decoration: none;
+}
+.movieImage{
+    height: 500px;
+    width: 380px;
+
+}
+.movieRating{
+    color:chocolate;
+    
+}
+.movieLink{
+    text-decoration: none;
+}
